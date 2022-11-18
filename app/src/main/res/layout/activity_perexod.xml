@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3464B4"
+    tools:context=".activity_perexod">
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="148dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="164dp"
+        android:backgroundTint="@color/design_default_color_secondary"
+
+        android:onClick="Space"
+        android:text="Начало освоения космоса"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="165dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="164dp"
+        android:backgroundTint="@color/teal_200"
+        android:onClick="Fanat"
+        android:text=" Гагарин Юрий Алексеевич"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.934"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="151dp"
+        android:layout_height="76dp"
+        android:backgroundTint="@color/teal_200"
+        android:onClick="DED"
+        android:text="Проект Циолковского"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.134"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.383" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="161dp"
+        android:layout_height="76dp"
+        android:backgroundTint="@color/teal_200"
+        android:onClick="Raynd"
+        android:text="Первая женщина космонавт "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.932"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.383" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="165dp"
+        android:layout_height="97dp"
+        android:backgroundTint="#ECE1E1"
+        android:text="Выберите информацию"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
+</androidx.constraintlayout.widget.ConstraintLayout>
